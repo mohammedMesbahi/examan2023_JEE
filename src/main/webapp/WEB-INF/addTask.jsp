@@ -10,7 +10,7 @@
 <head>
     <title>Title</title>
 </head>
-<body class="d-flex align-items-start justify-content-center flex-column w-100 h-100">
+<body class="d-flex flex-column w-100 h-100">
 <jsp:include page="../header.jsp"></jsp:include>
 <% String message=(String) request.getAttribute("message");%>
 <main>
